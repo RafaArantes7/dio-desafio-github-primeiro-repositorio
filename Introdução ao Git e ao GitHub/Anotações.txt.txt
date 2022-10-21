@@ -1,2 +1,16 @@
 Link para donwload do GIT: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+Adicionando novo repositório:
+- Abrir pasta criada que vai receber o novo repositório e abrir git bash
+- git clone e colar link repositório
+- cd (tab) para entrar no repositório
+- git status verificar se esta tudo certo
+
+Quando se cria uma nova pasta no seu terminal e queira atualizar ele no serivdor remoto GitHUB:
+-Criar arquivo .txt com anotações necessarias
+-git status (ele ja identificou que criou uma pasta nova)
+- git add .  (ou um git add -A) com isso ele vai entender que queremos adicionar isso ao servidor remoto
+- git commit -m "comentario coerente referente ao que voce esta adicionando"
+- git push origin main
+
+Todos os commits que tiver localmente, vai ser enviado para o servidor remoto.
